@@ -3,15 +3,17 @@ function gerarTabuada() {
     var resultado = document.getElementById('areatabuada')
     var aviso = document.getElementById('aviso')
 
-    var n = Number(numero.value)
-    resultado.value = ''
-    count = 0
+    var count = 0
 
     if (numero.value.length == 0) {
         aviso.innerHTML = `<strong>Digite um número abaixo!</strong>`
-    } else {
+        return
+    } 
+    else {
+        var n = Number(numero.value)
+        aviso.innerHTML = ''
+        resultado.value = ''
         while (count <= 10) {
-            aviso.innerHTML = ''
             var multiplicacao = n * count
             resultado.value += `${n} x ${count} = ${multiplicacao} \n`
             count++
