@@ -11,9 +11,9 @@ Este projeto foi desenvolvido com base nas aulas do Curso em Vídeo, ministradas
 
 ---
 
-##🖼️ Preview do Projeto
+## 🖼️ Preview do Projeto
 
-###🔢 Tabuada Gerada
+### 🔢 Tabuada Gerada
 ![Tabuada](preview-tabuada.png)
 
 ## 🚀 Funcionalidades
